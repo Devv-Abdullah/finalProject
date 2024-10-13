@@ -8,6 +8,9 @@ var repeatPassword = document.getElementById('form3Example4cdg');
 // console.log(repeatPassword)
 var allUsersData = JSON.parse(localStorage.getItem('userDataStorage')) || [];
 
+function sleep(ms){
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 RegistrationForm.addEventListener('click', function(event){
     event.preventDefault(); // prevent default behavior
@@ -23,16 +26,25 @@ RegistrationForm.addEventListener('click', function(event){
         repeatPassword: repeatPassword.value
     }
     // console.log(userDataStorage);
-    if(password.value == repeatPassword.value){
+    if(password.value == [] || repeatPassword.value == [] || username.value == [] || email.value == []){
+        Swal.fire({
+            icon: "error",
+            title: "Enter the values",
+            text: "Something went wrong!",
+          });
+    }
+    else if(password.value == repeatPassword.value){
         Swal.fire({
             position: "top-center",
             icon: "success",
-            title: "Password and repeatpassword are the same",
+            title: "Password and repeatpassword are the same",   
             showConfirmButton: false,
-            timer: 2000
+            timer: 2500
           });
-    allUsersData.push(userDataStorage);
-    window.location.href = 'login.html'
+          allUsersData.push(userDataStorage);
+          sleep(2500).then(() =>{
+            window.location.href = 'login.html'
+        })
     }
     else{
         Swal.fire({

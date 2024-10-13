@@ -7,6 +7,10 @@ var password = document.getElementById('password');
 
 var allUsersData = JSON.parse(localStorage.getItem('userDataStorage'));
 
+function sleep(ms){
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 Registrationlogin.addEventListener('submit', function(event){
     // console.log(Registrationlogin);
     event.preventDefault();
@@ -33,8 +37,11 @@ Registrationlogin.addEventListener('submit', function(event){
                         icon: "success",
                         title: "username and password are correct",
                         showConfirmButton: false,
-                        timer: 2000
+                        timer: 2500
                       });
+                      sleep(2500).then(() =>{
+                        window.location.href = 'phone.html'
+                    })
         }
     }
 })
