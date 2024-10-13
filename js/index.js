@@ -29,15 +29,15 @@ RegistrationForm.addEventListener('click', function(event){
     if(password.value == [] || repeatPassword.value == [] || username.value == [] || email.value == []){
         Swal.fire({
             icon: "error",
-            title: "Enter the values",
-            text: "Something went wrong!",
+            title: "Enter  fields are required",
+            text: "Please fill in all the fields!",
           });
     }
     else if(password.value == repeatPassword.value){
         Swal.fire({
             position: "top-center",
             icon: "success",
-            title: "Password and repeatpassword are the same",   
+            title: "Registration Successful",   
             showConfirmButton: false,
             timer: 2500
           });
@@ -49,8 +49,8 @@ RegistrationForm.addEventListener('click', function(event){
     else{
         Swal.fire({
             icon: "error",
-            title: "Password and repeatpassword are not the same",
-            text: "Something went wrong!",
+            title: "Passwords do not match",
+            text: "Please ensure both passwords are the same!",
           });
     }
     
