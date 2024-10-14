@@ -220,7 +220,7 @@ nav .navLink:hover{
 }
 
 .phone img:hover{
-    scale: 1rem;
+    /* scale: 1rem; */
     /* cursor: pointer; */
     width: 220px;
     /* height: 210px; */
