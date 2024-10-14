@@ -315,11 +315,14 @@ footer{
 
 /* responsive */
 
-/* res for mobile small screen */
 @media screen and (max-width:500px) {
+
+    nav .navItems{
+        display: contents;
+    }
+
     nav{
         display: ruby-text;
-        margin-top: 50px;
     }
 
     .herSection h4{
@@ -332,7 +335,7 @@ footer{
 
     .features{
         display: inline-flex;
-        width: 200%;
+        width: 225%;
     }
 
     .phonesSection .contentPhones{
@@ -350,7 +353,7 @@ footer{
     }
 
     footer {
-        width: 190%;
+        width: 225%;
     }
 
     .heroImage{
@@ -363,4 +366,4 @@ footer{
     .phonesSection button{
         /* margin-left: 160%; */
     }
-}
+} 
