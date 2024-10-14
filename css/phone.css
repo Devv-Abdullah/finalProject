@@ -116,7 +116,7 @@ nav .navLink:hover{
 .btn a{
     text-decoration: none;
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 
@@ -178,4 +178,116 @@ nav .navLink:hover{
     font-size: 1rem;
     text-align: center;
     color: rgb(29, 29, 29);
+}
+
+
+/* phones section */
+
+.newestPhones{
+    padding-top: 5rem;
+}
+
+.newestPhones .phonesSection{
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.phonesSection h4{
+    color: #d4af37;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.phonesSection .contentPhones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* كم عامود بدي */ /* fraction */
+    justify-content: start;
+}
+
+.contentPhones .phone{
+    margin: 2rem 0;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.phone img{
+    margin-bottom: 1rem;
+}
+
+.phone img:hover{
+    scale: 1rem;
+    /* cursor: pointer; */
+    width: 220px;
+    /* height: 210px; */
+}
+
+.phone h3{
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    /* margin-left: 40px; */
+}
+
+.phone .price{
+    /* margin-left: 70px; */
+    border-radius: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+} 
+
+.phonesSection button{
+    width: 15rem;
+    margin-bottom: 1rem;
+    align-self: center; /* بس العنصر هاض اعمله سنتر */
+}
+
+/* footerSection */
+
+footer{
+    background-color: lightgray;
+    height: 15vh;
+    margin-top: 5rem;
+    padding: 2rem 0;
+}
+
+.footerSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1660px;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+
+.footerSection p{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.footerSection .social{
+    margin-bottom: 1rem;
+}
+
+.footerSection a{
+    text-decoration: none;
+    color: black;
+}
+
+.footerSection .social i{
+    padding: 0 0.5rem;
+    font-size: 1.2rem;
+}
+
+.footerSection .social i:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.footerSection .social #insta:hover{
+    color: #cd486b;
 }
