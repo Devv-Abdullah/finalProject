@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap'); /*fontgoogle=> lalezar بس عشان your phone*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Tajawal", sans-serif;  /* fontgoogle=> tajawal*/
+}
+
+nav{
+    display: flex;
+    justify-content: space-between; /* فصلهم عن بعض */
+    align-items: center;
+    max-width: 1366;
+    height: 10vh;
+    margin: 0 auto;
+    padding: 0 2rem; /* 16px=1rem */
+}
+
+nav .logo{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+}
+
+nav .logo i{
+    /* color: #6e0aef; */
+    color: #d4af37;
+    padding-right: 0.75rem; /* 0.75*16 = 12px بتحرك الخط */
+}
+
+nav .logo h4{
+    font-family: "Lelezar", cursive;
+}
+
+nav .navItems{
+    display: flex;
+    list-style-type: none; /* بشيل النقاط */
+}
+
+nav .navItems .navItem{
+    padding: 0 1rem;
+}
+
+nav .navLink{
+    text-decoration: none;
+    /* color: #4e647e; */
+    color: black;
+    font-size: 1.4rem;
+}
+
+nav .navLink:hover{
+    color: #d4af37;
+}
+
+
+/* hero section */
+
+.hero{
+    background-color: whitesmoke;
+}
+
+.herSection{
+    max-width: 1366px;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+
+.herSection .content{
+    display: flex;
+    flex-direction: column; /* عشان يصيروا تحت بعض */
+}
+
+.herSection h4{
+    color: #d4af37;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.herSection .content h1{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+
+.herSection p{
+    color: rgb(29, 29, 29);
+    font-size: 1rem;
+}
+
+.herSection p span{
+    color: #d4af37;
+}
+
+.btn{
+    width: 10rem;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    background-color: #d4af37;
+}
+
+.btn:hover{
+    background-color: #d0b456;
+    cursor: pointer;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+
+/* features section */
+
+.features{
+    padding: 2rem;
+    background-color: lightgray;
+}
+
+.features .featuresSection{
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.featuresSection h4{
+    color: #d4af37;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.featuresSection .qualities{
+    display: flex;
+    justify-content: space-between;
+}
+
+.featuresSection .qualities .quality{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* كلشي بالنص */
+    background-color: white;
+    padding: 2rem;
+    max-width: 17rem;
+    border-radius: 1rem;
+    margin: 1rem; /* للكل */
+}
+
+.featuresSection .qualities .quality:hover{
+    border: 2px solid #d4af37;
+    font-size: larger;
+}
+
+.qualities .quality i{
+    font-size: 2rem;
+    color: #d4af37;
+    margin-bottom: 1rem;
+}
+
+.qualities .quality h3{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.qualities .quality p{
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(29, 29, 29);
+}
