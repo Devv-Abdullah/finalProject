@@ -85,3 +85,36 @@ Swal.fire({
         window.location.href = 'login.html'
     })
 })
+
+var create = document.getElementById('create');
+var yourname = document.getElementById('yourname');
+var youremail = document.getElementById('youremail');
+var pass = document.getElementById('pass');
+var rep = document.getElementById('rep');
+var lang = localStorage.getItem('lang');
+var gree = document.getElementById('gree');
+var submit = document.getElementById('submit');
+changeLanguage(lang);
+
+function changeLanguage(lang) {
+    if (lang === 'eng') {
+      create.innerText = "Create an account";
+        yourname.innerText = "Your Name";
+        youremail.innerText = "Your Email";
+        pass.innerText = "Password";
+        rep.innerText = "Repeat your password";
+        gree.innerText = "I agree all statements in Terms of service";
+        submit.innerText = "REGISTER";
+        localStorage.setItem('lang', lang);
+    } 
+    else if (lang === 'ar') {
+      create.innerText = "إنشاء حساب";
+        yourname.innerText = "اسم المستخدم";
+        youremail.innerText = "البريد الإلكتروني";
+        pass.innerText = "كلمة المرور";
+        rep.innerText = "كرر كلمة المرور";
+        gree.innerText = "أوافق على جميع البيانات الواردة في شروط الخدمة";
+        submit.innerText = "يسجل";
+        localStorage.setItem('lang', lang);
+    }
+}
