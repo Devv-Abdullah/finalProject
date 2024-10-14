@@ -246,6 +246,27 @@ nav .navLink:hover{
     align-self: center; /* بس العنصر هاض اعمله سنتر */
 }
 
+.button{
+    width: 10rem;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    background-color: #d4af37;
+}
+
+.button:hover{
+    background-color: #d0b456;
+    cursor: pointer;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
 /* footerSection */
 
 footer{
@@ -290,4 +311,56 @@ footer{
 
 .footerSection .social #insta:hover{
     color: #cd486b;
+}
+
+/* responsive */
+
+/* res for mobile small screen */
+@media screen and (max-width:500px) {
+    nav{
+        display: ruby-text;
+        margin-top: 50px;
+    }
+
+    .herSection h4{
+        font-size: 93%;
+    }
+
+    .herSection .content h1{
+        font-size: 180%;
+    }
+
+    .features{
+        display: inline-flex;
+        width: 200%;
+    }
+
+    .phonesSection .contentPhones{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .contentPhones .phone{
+        padding-right: 60px; 
+        padding-left: 80px;
+    }
+
+    .phone h3{
+        margin-bottom: 10px;
+    }
+
+    footer {
+        width: 190%;
+    }
+
+    .heroImage{
+        margin-left: 50px;
+    }
+    .navItems{
+            padding-left: 20px;
+    }
+
+    .phonesSection button{
+        /* margin-left: 160%; */
+    }
 }
