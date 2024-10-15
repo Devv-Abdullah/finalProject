@@ -27,8 +27,8 @@ nav .logo{
 }
 
 nav .logo i{
-    /* color: #6e0aef; */
-    color: #d4af37;
+    color: #6e0aef;
+    /* color: #d4af37; */
     padding-right: 0.75rem; /* 0.75*16 = 12px بتحرك الخط */
 }
 
