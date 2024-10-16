@@ -335,10 +335,11 @@ footer{
 @media screen and (max-width:500px) {
 
     nav .navItems{
-        display: contents;
+        display: inline;
     }
 
     nav{
+        font-size: medium;
         display: ruby-text;
     }
 
@@ -393,9 +394,9 @@ footer{
         margin-left: 50px;
     }
 
-    nav .logo h4{
-        font-size: large;
-    }
+    /* nav .logo h4{
+        font-size: medium;
+    } */
 
     .hero{
         margin-bottom: 10px;
