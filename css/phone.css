@@ -353,6 +353,7 @@ footer{
     .features{
         display: inline-flex;
         width: 225%;
+        margin-top: 10px;
     }
 
     .phonesSection .contentPhones{
@@ -389,6 +390,14 @@ footer{
     }
 
     .featuresSection .qualities{
-        margin-left: 60px;
+        margin-left: 50px;
+    }
+
+    nav .logo h4{
+        font-size: large;
+    }
+
+    .hero{
+        margin-bottom: 10px;
     }
 } 
