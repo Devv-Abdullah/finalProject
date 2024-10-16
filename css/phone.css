@@ -374,7 +374,7 @@ footer{
     }
 
     .heroImage{
-        margin-left: 50px;
+        margin-left: 200px;
     }
     .navItems{
             padding-left: 20px;
@@ -382,5 +382,13 @@ footer{
 
     .phonesSection button{
         /* margin-left: 160%; */
+    }
+
+    nav .navItems .navItem{
+        margin-left: 100px;
+    }
+
+    .featuresSection .qualities{
+        margin-left: 60px;
     }
 } 
