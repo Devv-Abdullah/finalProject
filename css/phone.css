@@ -15,7 +15,7 @@ nav{
     justify-content: space-between; /* فصلهم عن بعض */
     align-items: center;
     max-width: 1366;
-    height: 10vh;
+    height: 10vh; /* الشاشه كامله 100 vh انا اعطيت للناف 10 بضل 90 */
     margin: 0 auto;
     padding: 0 2rem; /* 16px=1rem */
 }
@@ -47,20 +47,21 @@ nav .navItems .navItem{
 
 nav .navLink{
     text-decoration: none;
-    /* color: #4e647e; */
-    color: black;
+    color: #4e647e;
+    /* color: black; */
     font-size: 1.4rem;
 }
 
 nav .navLink:hover{
-    color: #d4af37;
+    /* color: #d4af37; */
+    color: #6e0aef;
 }
 
 
 /* hero section */
 
 .hero{
-    background-color: whitesmoke;
+    background-color: #faf7fc; /* اللون السكني */
 }
 
 .herSection{
@@ -79,7 +80,8 @@ nav .navLink:hover{
 }
 
 .herSection h4{
-    color: #d4af37;
+    /* color: #d4af37; */
+    color: #6e0aef;
     font-size: 1.6rem;
     margin-bottom: 1rem;
 }
@@ -95,7 +97,8 @@ nav .navLink:hover{
 }
 
 .herSection p span{
-    color: #d4af37;
+    /* color: #d4af37; */
+    color: #6e0aef;
 }
 
 .btn{
@@ -105,11 +108,13 @@ nav .navLink:hover{
     outline: none;
     border: none;
     padding: 0.75rem 1.5rem;
-    background-color: #d4af37;
+    /* background-color: #d4af37; */
+    background-color: #6e0aef;
 }
 
 .btn:hover{
-    background-color: #d0b456;
+    /* background-color: #d0b456; */
+    background-color: #7d25fa;
     cursor: pointer;
 }
 
@@ -124,7 +129,7 @@ nav .navLink:hover{
 
 .features{
     padding: 2rem;
-    background-color: lightgray;
+    background-color: #faf7fc;
 }
 
 .features .featuresSection{
@@ -137,7 +142,8 @@ nav .navLink:hover{
 }
 
 .featuresSection h4{
-    color: #d4af37;
+    /* color: #d4af37; */
+    color: #6e0aef;
     font-size: 1.6rem;
     margin-bottom: 2rem;
 }
@@ -159,13 +165,16 @@ nav .navLink:hover{
 }
 
 .featuresSection .qualities .quality:hover{
-    border: 2px solid #d4af37;
-    font-size: larger;
+    /* border: 2px solid #d4af37; */
+    border: 2px solid #6e0aef;
+    /* font-size: larger; */
+    /* font-style: italic; */
 }
 
 .qualities .quality i{
     font-size: 2rem;
-    color: #d4af37;
+    /* color: #d4af37; */
+    color: #6e0aef;
     margin-bottom: 1rem;
 }
 
@@ -177,7 +186,7 @@ nav .navLink:hover{
 .qualities .quality p{
     font-size: 1rem;
     text-align: center;
-    color: rgb(29, 29, 29);
+    color: #4e647e;
 }
 
 
@@ -196,7 +205,8 @@ nav .navLink:hover{
 }
 
 .phonesSection h4{
-    color: #d4af37;
+    /* color: #d4af37; */
+    color: #6e0aef;
     font-size: 1.6rem;
     margin-bottom: 2rem;
 }
@@ -220,9 +230,9 @@ nav .navLink:hover{
 }
 
 .phone img:hover{
-    /* scale: 1rem; */
-    /* cursor: pointer; */
-    width: 220px;
+    scale: 1rem;
+    cursor: pointer;
+    /* width: 220px; */
     /* height: 210px; */
 }
 
@@ -236,7 +246,9 @@ nav .navLink:hover{
     /* margin-left: 70px; */
     border-radius: 20px;
     padding: 10px;
-    background-color: black;
+    /* background-color: black; */
+    background-color: #6e0aef;
+    cursor: pointer;
     color: white;
 } 
 
@@ -246,34 +258,37 @@ nav .navLink:hover{
     align-self: center; /* بس العنصر هاض اعمله سنتر */
 }
 
-.button{
+/* .button{
     width: 10rem;
     margin-top: 3rem;
     border-radius: 0.5rem;
     outline: none;
     border: none;
     padding: 0.75rem 1.5rem;
-    background-color: #d4af37;
-}
+    background-color: #6e0aef;
+} */
 
-.button:hover{
-    background-color: #d0b456;
+/* .button:hover{
+    background-color: #6e0aef;
     cursor: pointer;
-}
+} */
 
-.button a{
+/* .button a{
     text-decoration: none;
     color: white;
     font-size: 1.3rem;
-}
+} */
 
 /* footerSection */
 
 footer{
     background-color: lightgray;
+    /* background-color: #f8f7fc; */
     height: 15vh;
-    margin-top: 5rem;
-    padding: 2rem 0;
+    /* margin-top: 5rem; */
+    margin-top: 2rem;
+    /* padding: 2rem 0; */
+    padding-top: 1rem;
 }
 
 .footerSection{
@@ -286,7 +301,8 @@ footer{
 }
 
 .footerSection p{
-    font-size: 2rem;
+    /* color: #6e0aef; */
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
@@ -300,8 +316,9 @@ footer{
 }
 
 .footerSection .social i{
+    /* color: #4e647e; */
     padding: 0 0.5rem;
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
 .footerSection .social i:hover{

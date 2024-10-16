@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contentPhones .phone{
+    margin: 2rem 0;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40%;
+}
+
+.phone img{
+    margin-bottom: 1rem;
+}
+
+h3{
+    margin-bottom: 10px;
+    color: white;
+}
+
+p{
+    font-size: large;
+    color: rgba(255, 255, 255, 0.679);
+}
+
+#p1{
+    margin-top: 10px;
+    font-size: large;
+    color: rgba(255, 255, 255, 0.679);
+}
+
+hr{
+    width: 60%;
+    margin-left: 20%;
+    background-color: black
+}
+
+#Capacity{
+    margin-top: 50px;
+    margin-left: 20%;
+    color: white;
+    /* font-size: x-large; */
+}
+
+ul{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.679);
+}
+
+li{
+    padding: 5px 0;
+}
