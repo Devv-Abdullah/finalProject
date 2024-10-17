@@ -355,10 +355,15 @@ footer{
     }
 
     footer {
-        width: 190%;
+        width: 200%;
     }
 
     .contentPhones .phone{
         padding-right: 20px;
+    }
+
+    marquee{
+        width: 200%;
+        margin: 20px 0;
     }
 } 

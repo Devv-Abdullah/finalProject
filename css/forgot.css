@@ -1,0 +1,34 @@
+.bg-primary{
+    background-color: var(--bs-purple) !important;
+}
+
+.btn-primary{
+    background-color: var(--bs-indigo);
+}
+
+a{
+    color: var(--bs-indigo);
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:500px) {
+    .text-center {
+        float: right;
+        margin-right: 20%;
+        margin-top: 80%;
+    }
+
+    .bg-primary{
+        background-color: var(--bs-purple) !important;
+    }
+
+    .btn-primary{
+        background-color: var(--bs-indigo);
+    }
+
+    a{
+        color: var(--bs-indigo);
+        text-decoration: none;
+    }
+}
