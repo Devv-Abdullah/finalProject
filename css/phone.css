@@ -331,6 +331,13 @@ footer{
     color: #cd486b;
 }
 
+
+marquee{
+    color: #6e0aef; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: xx-large;
+}
+
 /* responsive */
 
 @media screen and (max-width:500px) {
