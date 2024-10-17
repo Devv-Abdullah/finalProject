@@ -16,3 +16,7 @@
     color: white;
     background-color: green;
 }
+
+.card{
+    display: contents;
+}
