@@ -8,15 +8,27 @@
     margin-left: 50%;
     border: none;
     color: white;
-    background-color: green;
+    background-color: #6e0aef;
 }
 
 #button2{
     border: none;
     color: white;
-    background-color: green;
+    background-color: #6e0aef;
 }
 
 .card{
     display: contents;
+}
+
+.btn{
+    background-color: #6e0aef;
+}
+
+#submit {
+    color: var(--mdb-white) !important;
+}
+
+#loginHere {
+    text-decoration: none;
 }
