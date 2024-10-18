@@ -58,7 +58,7 @@ body {
 }
 
 .fab.fa-cc-amex {
-    color: #1c6acf;
+    color: #6e0aef;
     font-size: 32px;
 }
 
@@ -86,7 +86,7 @@ body {
 }
 
 .btn.btn-primary.payment {
-    background-color: #1c6acf;
+    background-color: #6e0aef;
     color: white;
     border-radius: 0px;
     height: 50px;
@@ -130,7 +130,7 @@ body {
 .form-control:focus+.form__label {
     top: -8px;
     left: 12px;
-    color: #1A73E8;
+    color: #6e0aef;
     font-size: 12px;
     font-weight: 500;
     z-index: 10;
@@ -145,6 +145,6 @@ body {
 }
 
 .form-control:focus {
-    border: 1.5px solid #1A73E8;
+    border: 1.5px solid #6e0aef;
     box-shadow: none;
 }
