@@ -62,7 +62,8 @@ nav .navLink:hover{
 /* hero section */
 
 .hero{
-    background-color: #faf7fc; /* اللون السكني */
+    /* background-color: #faf7fc; اللون السكني */
+    background-color: #faf7fc40;
 }
 
 .herSection{
