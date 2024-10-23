@@ -4,6 +4,10 @@
     }
 }
 
+.btn:hover{
+    background-color: var(--mdb-purple);
+}
+
 #button1{
     margin-left: 50%;
     border: none;

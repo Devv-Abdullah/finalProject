@@ -37,6 +37,13 @@ Registrationlogin.addEventListener('submit', function(event){
           text: "Incorrect password!",
       });
       }
+      else if(foundUsers.username !== username.value){
+        Swal.fire({
+          icon: "error",
+          title: "Wrong UserName",
+          text: "Incorrect password!",
+      });
+      }
       else {
         Swal.fire({
             position: "top-center",

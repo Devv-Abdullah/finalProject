@@ -1,4 +1,4 @@
-var RegistrationForm = document.getElementById('submit');
+var RegistrationForm = document.getElementById('RegistrationForm');
 // console.log(RegistrationForm);
 
 var username = document.getElementById('form3Example1cg');
@@ -12,7 +12,7 @@ function sleep(ms){
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-RegistrationForm.addEventListener('click', function(event){
+RegistrationForm.addEventListener('submit', function(event){
     event.preventDefault(); // prevent default behavior
     // console.log(userName.value);
     // console.log(email.value);
