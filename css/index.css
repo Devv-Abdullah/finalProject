@@ -5,7 +5,27 @@
 }
 
 .btn:hover{
-    background-color: var(--mdb-purple);
+    background-color: #6e0aef;
+    border-color: #6e0aef;
+}
+
+.btn-check:checked+.btn, :not(.btn-check)+.btn:active, .btn:first-child:active, .btn.active, .btn.show{
+    background-color: #6e0aef;
+    border-color:#6e0aef;
+}
+
+.btn-success:focus{
+    background-color:#6e0aef;
+    
+}
+
+.btn:focus-visible{
+    background-color: #6e0aef;
+    border-color:#6e0aef;
+}
+
+.btn-success{
+    --mdb-btn-box-shadow-state: 0 8px 9px -4px var(--mdb-purple), 0 4px 18px 0 rgba(19, 156, 73, 0.2);
 }
 
 #button1{
