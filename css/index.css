@@ -28,6 +28,12 @@
     --mdb-btn-box-shadow-state: 0 8px 9px -4px var(--mdb-purple), 0 4px 18px 0 rgba(19, 156, 73, 0.2);
 }
 
+#loginHere:hover{
+    background-color: #6e0aef;
+    color: white;
+    /* padding: 5px 5px; */
+}
+
 #button1{
     margin-left: 50%;
     border: none;
